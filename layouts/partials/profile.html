@@ -5,7 +5,7 @@
       {{ with .Site.Params.author}}<h2 id="name">{{ . }}</h2>{{ end }}
       {{ with .Site.Params.bio }}<h3 id="title">{{ . }}</h3>{{ end }}
       {{ with .Site.Params.location }}<span id="location"><i class="fa fa-map-marker"></i>{{ . }}</span>{{ end }}
-      {{ with .Site.Params.profile.follow_button }}
+<!--      {{ with .Site.Params.profile.follow_button }}
           <a id="follow" href="{{ . }}">
               {{with $.Site.Data.l10n.profile.follow_button}}{{.}}{{end}}
           </a>
@@ -17,16 +17,16 @@
         <span>{{with .Site.Data.l10n.profile.posts}}{{.}}{{end}}</span>
       </div>
       <div class="article-info-block">
-        {{ if isset .Site.Taxonomies "tags" }}
-          {{ len .Site.Taxonomies.tags }}
+        {{ if isset .Site.Taxonomies "categories" }}
+          {{ len .Site.Taxonomies.categories }}
         {{ else }}
           0
         {{ end }}
         <span>
-            {{with .Site.Data.l10n.profile.tags}}{{.}}{{end}}
+            {{with .Site.Data.l10n.profile.categories}}{{.}}{{end}}
         </span>
       </div>
-    </div>
+    </div> -->
     <div class="profile-block social-links">
       <table>
         <tr>
