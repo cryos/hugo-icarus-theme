@@ -223,7 +223,6 @@ code {
 .widget-title {
   line-height: 1em;
   text-decoration: none;
-  text-transform: uppercase;
 }
 #header,
 #profile .inner,
@@ -716,7 +715,6 @@ code {
 #profile .inner .article-info .article-info-block span {
   display: block;
   font-size: 14px;
-  text-transform: uppercase;
 }
 #profile .inner .article-info .article-info-block:first-child {
   border-right: 1px solid #eceff2;
@@ -1127,7 +1125,6 @@ a.article-title:hover {
   line-height: 1em;
   font-weight: bold;
   color: #565a5f;
-  text-transform: uppercase;
 }
 #article-nav-newer .article-nav-caption {
   margin-right: -2px;
@@ -1893,7 +1890,6 @@ ol.toc {
 #recent-post li .item-inner a,
 #recent-post li .item-inner .item-category {
   font-size: 13px;
-  text-transform: uppercase;
 }
 #recent-post li .item-inner a a,
 #recent-post li .item-inner .item-category a {
@@ -1922,7 +1918,6 @@ ol.toc {
 #recent-post li .item-inner .item-date {
   color: #aaa;
   font-size: 13px;
-  text-transform: uppercase;
 }
 #recent-post li:hover .item-thumbnail {
   opacity: 0.8;
